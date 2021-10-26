@@ -4,7 +4,7 @@ https://github.com/THNTS/FSE_final_project.git
 
 
     1. Clone repo git clone https://github.com/THNTS/FSE_final_project.git
-    2.  You can build docker from dockerfile: docker build . or pull it from dockerhub: 
+    2.  You can build docker from dockerfile: docker build . or pull it from dockerhub: daniilbi/fse_final_project:wow1
 
 Dockerfile has already all requirements for the python modules
 
