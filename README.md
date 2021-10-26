@@ -1,12 +1,15 @@
+//Project has been changed from ScanComplete due to data inavailability
+
 This repository is not an original official implementation of the work, but a refactored codebase. Performed within the FSE coursework at Skoltech. The repository is a modification of original repo. We make the project easier to use and less irritating to setup.
 Quickstart
 https://github.com/THNTS/FSE_final_project.git
 
 
     1. Clone repo git clone https://github.com/THNTS/FSE_final_project.git
-    2.  You can build docker from dockerfile: docker build . or pull it from dockerhub: daniilbi/fse_final_project:wow1
+    2.  You can build docker from dockerfile: docker build . or pull it from dockerhub: daniilbi/fse_final_project:wow3
 
 Dockerfile has already all requirements for the python modules
+For running docker with nvidia-cuda and drivers enabled use:
 
     3. Run docker docker run -ti --runtime=nvidia -e NVIDIA_DRIVER_CAPABILITIES=compute,utility -e NVIDIA_VISIBLE_DEVICES=all <image_name>
 
