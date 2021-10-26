@@ -9,6 +9,7 @@ https://github.com/THNTS/FSE_final_project.git
     2.  You can build docker from dockerfile: docker build . or pull it from dockerhub: daniilbi/fse_final_project:wow3
 
 Dockerfile has already all requirements for the python modules
+For running docker with nvidia-cuda and drivers enabled use:
 
     3. Run docker docker run -ti --runtime=nvidia -e NVIDIA_DRIVER_CAPABILITIES=compute,utility -e NVIDIA_VISIBLE_DEVICES=all <image_name>
 
