@@ -4,8 +4,6 @@ FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 
 WORKDIR /usr/src/app
 
-COPY requirements.txt requirements.txt
-
 RUN apt-get update -y && apt-get install -y software-properties-common && add-apt-repository ppa:deadsnakes/ppa
 
 RUN apt-get update -y && apt-get install -y \
