@@ -22,7 +22,7 @@ MeshNet:
 lr: 0.01
 momentum: 0.9
 weight_decay: 0.0005
-batch_size: 64
-max_epoch: 150
+batch_size: 32
+max_epoch: 100
 milestones: [30, 60]
 gamma: 0.1
